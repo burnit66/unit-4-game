@@ -1,0 +1,114 @@
+.info {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid yellow;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    width: 75%;
+}
+
+.header {
+    text-align: center;
+}
+html {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+/* #randomNum {
+    color: blue;
+    background-color: gray;
+    display: block;
+    border: 5px solid black;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    font-size: 18px; 
+} */
+
+/* .gemImage {
+    border: 5px solid red;
+    margin: 10px;
+    background-color: gray;
+} */
+
+.rdmNum {
+    padding: 20px;
+    margin: 0 auto;
+    color: blue;
+    background-color: gray;
+    display: block;
+    border: 5px solid black;
+    width: 200px;
+    height: 100px;
+    font-size: 18px;
+}
+
+.winsAndLosses,
+.userTotal {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid green;
+    background-color: gray;
+    width: 50%;
+}
+
+/* .gems {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gems img {
+    margin: 0 auto;
+}
+
+img.gemImage {
+    display: inline-block;
+    margin: 0 auto;
+} */
+
+.gems{
+    max-width: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.gemImage{
+    width: 100px;  
+    height: 100px;
+    margin: auto;
+}
+
+#one {
+    color: blue;
+}
+
+#two {
+    color: green;
+}
+
+#three {
+    color: red;
+}
+
+#four {
+    color: yellow;
+}
+/* on hover */
+
+/* new color for each gem */
+
