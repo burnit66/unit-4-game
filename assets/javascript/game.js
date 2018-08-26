@@ -14,11 +14,9 @@ $(document).ready(function () {
 
     $('#totalWins').text(wins);
     $('#totalLosses').text(losses);
-    console.log(compNum);
 
     function reset() {
         compNum = Math.floor(Math.random() * 101 + 19);
-        console.log(compNum)
         $('#randomNum').text(compNum);
         num1 = Math.floor(Math.random() * 12) + 1;
         num2 = Math.floor(Math.random() * 12) + 1;
@@ -40,7 +38,6 @@ $(document).ready(function () {
 
     $('#one').on('click', function () {
         userNum = userNum + num1;
-        console.log("New userNum= " + userNum);
         $('#currentTotal').text(userNum);
 
         if (userNum == compNum) {
@@ -51,7 +48,6 @@ $(document).ready(function () {
     })
     $('#two').on('click', function () {
         userNum = userNum + num2;
-        console.log("New userNum= " + userNum);
         $('#currentTotal').text(userNum);
 
         if (userNum == compNum) {
@@ -62,7 +58,6 @@ $(document).ready(function () {
     })
     $('#three').on('click', function () {
         userNum = userNum + num3;
-        console.log("New userNum= " + userNum);
         $('#currentTotal').text(userNum);
 
         if (userNum == compNum) {
@@ -73,7 +68,6 @@ $(document).ready(function () {
     })
     $('#four').on('click', function () {
         userNum = userNum + num4;
-        console.log("New userNum= " + userNum);
         $('#currentTotal').text(userNum);
 
         if (userNum == compNum) {

@@ -1,83 +1,69 @@
-.info {
-    font-family: 'Sawarabi Gothic', sans-serif;
-    display: block;
-    margin: 10px auto;
-    border: 2px solid yellow;
-    padding: 10px;
-    background-color: gray;
-    color: white;
-    width: 75%;
+html {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
+h2 {
     text-align: center;
-}
-html {
-    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
 }
 
 h3 {
     text-align: center;
 }
 
-h2 {
+.info {
+    display: block;
+    margin: 10px auto;
     text-align: center;
-    color: blueviolet;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 75%;
 }
 
-/* #randomNum {
-    color: blue;
-    background-color: gray;
-    display: block;
-    border: 5px solid black;
-    margin: 0 auto;
-    width: 200px;
-    height: 100px;
-    font-size: 18px; 
-} */
+.header {
+    text-align: center;
+}
 
-/* .gemImage {
-    border: 5px solid red;
-    margin: 10px;
-    background-color: gray;
-} */
+.scores{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 
 .rdmNum {
     padding: 20px;
-    margin: 0 auto;
-    color: blue;
+    color: #fff;
     background-color: gray;
     display: block;
-    border: 5px solid black;
     width: 200px;
     height: 100px;
     font-size: 18px;
+    margin: 20px auto;
+    border-radius: 20px;
 }
 
-.winsAndLosses,
+#randomNum{
+    font-size:30px;
+    color: rgb(226, 58, 58);
+    padding-top:10px;
+    text-decoration: underline;
+}
+
 .userTotal {
     display: block;
-    margin: 10px auto;
-    border: 2px solid green;
+    color: #fff;
     background-color: gray;
-    width: 50%;
+    width: 200px;
+    margin: 0 auto;
+    padding:15px;
+    border-radius: 20px;
 }
 
-/* .gems {
-    margin: 0 auto;
-    width: 100%;
-}
-
-.gems img {
-    margin: 0 auto;
-}
-
-img.gemImage {
-    display: inline-block;
-    margin: 0 auto;
-} */
-
-.gems{
+.gems {
+    clear: both;
     max-width: 1000px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -87,28 +73,70 @@ img.gemImage {
     font-size: 20px;
 }
 
-.gemImage{
-    width: 100px;  
+.gemImage {
+    width: 100px;
     height: 100px;
     margin: auto;
+}
+
+.winsAndLosses {
+    display: block;
+    margin: 10px auto;
+    background-color: gray;
+    padding:10px;
+    width: 50%;
+    color: #fff;
+    border-radius: 20px;
 }
 
 #one {
     color: blue;
 }
 
+#one::before {
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);  
+}
+
 #two {
     color: green;
+}
+
+#two::before {
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 #three {
     color: red;
 }
 
+#three::before {
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
 #four {
     color: yellow;
 }
-/* on hover */
 
-/* new color for each gem */
-
+#four::before {
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
